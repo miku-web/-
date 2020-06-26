@@ -1,0 +1,143 @@
+*{margin: 0;padding: 0;}
+body{background:url(img/beijing.png)  ;background-repeat: no-repeat;background-size: 100% 100%;background-attachment: fixed;}
+div{margin: 0px auto; }
+#banner{width: 1200px;padding-bottom:0px;}
+#clear{line-height: 1px; height: 0px; width: 1px;visibility: visible;clear: both;font-size: 1px;}
+#slideshow{background:url(img/nav.png);  height: 5px;margin: 0px auto;width: 1200px;}
+.nav{width:1200px ; height: 32px;overflow: visible;background:url(img/nav.png);;}
+ul{padding: 0px 0px 0px 0px;}
+ul{list-style-type: none;display: block;margin: 0px;}
+ul li{float: left;display: block;position: relative;background:url(img/nav.png);}
+ul li a{text-decoration: none;}
+ul li:hover{}
+ul li a:hover{text-decoration: none;}
+a:hover{text-decoration: underline;color: black;}
+ul li ul li{position: relative;top: 0px;right: 21px;left: 5px; float: none;background-color: #0E76CF;border: 1px solid #0E76CF ;}
+ul li ul{position: absolute;top: 20px;left: 0;display: none;}
+ul li ul li:hover{background-color: #0E76CF;left: -5px;}
+ul li:hover ul{display: block;}
+button{background: url(img/miku1.jpg);}
+
+#menu{z-index:300;position: relative;margin: 0; height: 36px; padding-right: 5px;padding-left: 5px; }
+#menu li a:visited{padding-bottom: 9px;padding-top: 10px;padding-left: 14px;padding-right: 10px ;display: block;  color: #ffe;text-decoration: none;}
+#menu li ul{position: absolute;top: 32px; padding-top: 0px;padding-bottom: 0px;padding-left: 10px;padding-right: 10px;width: 95px;}
+#menu-mainmenu-homemenu{padding: 0px 21px;width: 90px; height: 36px; background:none;}
+#menu-mainmenu-item{padding: 0px 21px;width: 90px;  height: 30px;text-align: center;}
+.menu-mainmenu-many ul li{width: 120px;height: 30px;}
+#slideshow2{height: 10px; width: 1200px; padding: 0px;margin: 0px auto;}
+#containerTop{width: 1200px; height: 1px; }
+#main-item{ background:;background:url(img/yinghua.jpg)  ;background-repeat: no-repeat;background-size: 100% 100%;background-attachment: fixed;opacity: 0.95;width: 1195px; height: auto ;overflow: hidden;padding-left: 5px; }
+/*#main-item-context{float: left; width: 750px;background-color: aqua;}*/
+#main-item-left {float: left; width: 320px ;height: auto;padding-left: 5px;margin: auto; }
+#main-item-center {float: left; width: 530px ;height: auto;margin: auto; }
+#left_B{text-align: left;padding-left: 5px;margin: 5px 10px 0px 0px ;position: 5px;width: 300px;height: 360px;}
+#marquePic1 a{text-decoration: none;}
+#main-item-right{float: left; width: 340px ;height: auto;margin: auto; }
+.register{background: url(img/miku1.jpg);opacity: 0.8;background-size: cover;padding-left: 0px; padding-left: 0px;padding-right: 10px;padding-top: 30px; width: 330px; height: 165px;margin:30px auto}
+#userregister{  padding-right: 10px ;padding-left: 10px;}
+#userenroll{margin: 10px;padding-right: 10px ;padding-left: 10px; }
+#huandeng{width: 300px; height: 350px;padding-top: 5px;}
+#notice{width: 300px; height: 340px;margin-top:3px ;}
+
+#main-item-center-top{margin:0px auto 6px 8px;border:1px;padding: 0px 10px 10px 10px ;width: 490px;height:450px ;}
+#news{width: 485px;float: left;overflow: hidden;border-top: 1px #ddd solid;}
+#news ul{margin-top:8px ;}
+#news ul li{text-align: left;padding: 0px 5px 0px 10px;line-height: 14px;margin: 6px 0px ;width:480px;height: 15px;overflow: hidden;background:url(img/miku1.png);}
+#news ul li a{width: 355px ;float: left;overflow: hidden;}
+#news ul li a:hover{text-decoration: underline;}
+#title2{font-size: 12px;}
+#date{color: #ddd;float: right;margin-right: 10px;}
+#main-item-center-bottom{ width: 513px;height: auto;opacity: 0.7;}
+#main-item-right-top{margin: 0px 1px 1px 1px ;border: 1px;padding: 0px 10px;width: 310px;height: 150px;}
+
+#main-item-right-center{margin: 60px 0px 0px 5px;padding-top: 30px;padding: 0px 10px;width: 310px;height: auto ;}
+#title2{font-size: 1.2em;float: left;padding-left: 5px;}
+#Link{width: 310px;overflow: hidden;margin-bottom: 6px; border-top: 1px #0E76CF solid ;}
+#Link  ul li a:hover{text-decoration: none;}
+#Link  ul li a{text-decoration: n;}
+#Link ul li{list-style-type: none;float: left; text-align: left;padding-bottom: 8px;line-height: 14px;margin: 5px 0px ;width: 310px;padding-right:5px ;padding-top: 5px;height: 14px;overflow: hidden;padding-top: 0px;background:url(img/miku1.png);}
+#main-item-right-bottem{margin-top: 0.5rem;margin-left:5px ;padding: 0px 10px ;width: 310px ;border:#ddd 1px solid;float: left;}
+#main-item-right-bottem-Link{font-size: 12px;width: 310px;overflow: hidden;margin-bottom: 6px; }
+
+#main-item-right-bottem-Link-content ul li{list-style-type: disc;text-align: left;clear: both;padding-top: 10px;width: 330px;height: 20px;background:url(img/miku1.png);}
+#main-item-right-bottem-Link-content  ul li a:hover{text-decoration: none;}
+#clear2{ line-height: 0;width: 1px;height: 1px;visibility: hidden;clear: both;font-size: 1px;}
+#xstd{ background:uurl(img/banner.webp);padding-bottom: 6px; text-indent: 5px;padding-right: 0px;width: 1140px;padding-right: 0px;font-size: 14px;overflow: hidden;padding-top: 0px;height: 15px;margin: 0 auto;}
+#xstd a{color: black;}
+xstd a:visited{text-decoration: none;}
+xstd a:link{font-size: 1.2em;text-decoration: none;padding-bottom: 5px;}
+#main-bottem-left{float: left;}
+#main-bottem-left a:hover{text-decoration: none;}
+#main-bottem-right{float: right;}
+#guntu{  border: none;padding: 0px 20px 0px 20px; margin-left:330px ;width: 1125px;height: 120.8px;}
+
+#footer{ text-align: center;margin: 15px auto;width: 1200px;color: #8b8b8b;border-top:#d9d9d9 1px solid ;padding-top: 15px;}
+#footer a{color: #8b8b8b;}
+/* #marquePic3 table tr td{padding: 0px 0px 0px 5px ;margin: 0px 0px 0px 0px ;} */
+
+/* 轮番图 */
+#left_T{margin: 5px 10px;position: 5px;width: 300px;height: 400px;
+}
+.container {
+		            position: relative;
+		            width: 1200px;
+		            height: 400px;
+		            margin-left: 343px;
+		            box-shadow: 0 0 5px green;
+		            overflow: hidden;
+		        }
+		        .container .wrap {
+		            position: absolute;
+		            width: 8400px;
+		            height: 400px;
+		            z-index: 1;
+		        }
+		        .container .wrap img {
+		            float: left;
+		            width: 1200px;
+		            height: 400px;
+		        }
+		        .container .buttons {
+		            position: absolute;
+		            right: 5px;
+		            bottom:40px;
+		            width: 150px;
+		            height: 10px;
+		            z-index: 2;
+		        }
+		        .container .buttons span {
+		            margin-left: 5px;
+		            display: inline-block;
+		            width: 20px;
+		            height: 20px;
+		            border-radius: 50%;
+		            background-color: green;
+		            text-align: center;
+		            color:white;
+		            cursor: pointer;
+		        }
+		        .container .buttons span.on{
+		            background-color: red;
+		        }
+		        .container .arrow {
+		            position: absolute;
+		            top: 35%;
+		            color: green;
+		            padding:0px 14px;
+		            border-radius: 50%;
+		            font-size: 50px;
+		            z-index: 2;
+		            display: none;
+		        }
+		        .container .arrow_left {
+		            left: 10px;
+		        }
+		        .container .arrow_right {
+		            right: 10px;
+		        }
+		        .container:hover .arrow {
+		            display: block;
+		        }
+		        .container .arrow:hover {
+		            background-color: rgba(0,0,0,0.2);
+		        }
